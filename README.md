@@ -1,6 +1,6 @@
 # Configure StandardJS + eslint on VSC for Vue projects
 
-##Configuration files
+## Configuration files
 
 ### Settings.json (VSC settings)
 
