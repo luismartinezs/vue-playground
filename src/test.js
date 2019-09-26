@@ -3,3 +3,5 @@ function doSomething () {
 }
 
 doSomething()
+
+export default doSomething
