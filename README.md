@@ -101,8 +101,9 @@ module.exports = {
 
 ```javascript
 module.exports = {
-  tabWidth: 2
-};
+  tabWidth: 2,
+  useTabs: false
+}
 ```
 
 ## What formats what
