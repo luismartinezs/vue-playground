@@ -132,6 +132,9 @@ export default {
   computed: {
     doSomething () {
       return 1
+    },
+    doSomethingElse () {
+      return this.doSomething()
     }
   }
 }
