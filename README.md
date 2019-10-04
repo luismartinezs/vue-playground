@@ -104,10 +104,10 @@ module.exports = {
 module.exports = {
   tabWidth: 2,
   useTabs: false
-}
+};
 ```
 
 ## What formats what
 
-- Prettier extension: html, scss and css files. Template and style tags in .vue files. Formatted with alt+shift+F
-- Prettier-StandardJS extension: js files (with alt+shift+F). Script tags in .vue files (on save)
+- Prettier extension: html, scss and css files. Template and style tags in .vue files. Formatted with alt+shift+F (ctrl+shift+I on Ubuntu)
+- Prettier-StandardJS extension: js files (with alt+shift+F, ctrl+shift+I on Ubuntu). Script tags in .vue files (on save)
