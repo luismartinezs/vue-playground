@@ -97,6 +97,7 @@ module.exports = {
   - In function declarations inside .vue files where more than one space precedes the opening parenthesis of the arguments (e.g. `function doSomething (...args) {/* code */}`), the extra space will not be automatically trimmed.
   - If the text content of a html tag is placed immediately after the “>” of the opening tag, auto format will not place the text content in the next line automatically. The same applies if the closing tag “</” is placed right after the element text content.
 - Beware of any existing configuration files that may be interfering with the desired setup (.prettierrc, .eslintrc.js in sub folders, .eslintrc, eslint or prettier configurations in general configuration files such as package.json...).
+- Open VSC from whatever folder contains the package.json file. If your project contains both backend and frontend, and the frontend is contained in a subfolder, you must open the frontend subfolder with VSC, NOT the parent folder of the entire project.
 - I recommend to add a .prettierrc.js file to the root of the project with:
 
 ```javascript
