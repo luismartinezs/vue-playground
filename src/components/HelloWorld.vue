@@ -136,6 +136,15 @@ export default {
     doSomethingElse () {
       return this.doSomething()
     }
+  },
+  methods: {
+    doThis () {
+      this.doThat()
+      return 'Done'
+    },
+    doThat () {
+      return 'Done'
+    }
   }
 }
 
